@@ -1,0 +1,51 @@
+id	category	english	bangla
+1	question	What is the capital of Japan?	জাপানের রাজধানী কী?
+2	question	Who wrote the national anthem of Bangladesh?	বাংলাদেশের জাতীয় সংগীত কে লিখেছেন?
+3	question	How many days are there in a leap year?	একটি অধিবর্ষে কত দিন থাকে?
+4	question	Which planet is known as the Red Planet?	কোন গ্রহকে লাল গ্রহ বলা হয়?
+5	question	What is the longest river in the world?	বিশ্বের দীর্ঘতম নদী কোনটি?
+6	question	Why is the sky blue?	আকাশ নীল কেন?
+7	question	What is the boiling point of water in Celsius?	পানির স্ফুটনাঙ্ক সেলসিয়াসে কত?
+8	question	Who discovered gravity?	মাধ্যাকর্ষণ কে আবিষ্কার করেছিলেন?
+9	question	What is the largest mammal on Earth?	পৃথিবীর বৃহত্তম স্তন্যপায়ী প্রাণী কোনটি?
+10	instruction	Write a short greeting for a new neighbour.	নতুন প্রতিবেশীর জন্য একটি ছোট শুভেচ্ছাবার্তা লিখুন।
+11	instruction	List three healthy breakfast ideas.	স্বাস্থ্যকর সকালের নাস্তার তিনটি ধারণা লিখুন।
+12	instruction	"Translate ""good morning"" into French."	"""শুভ সকাল"" কথাটি ফরাসি ভাষায় অনুবাদ করুন।"
+13	instruction	Give me three tips to sleep better.	ভালো ঘুমের জন্য আমাকে তিনটি পরামর্শ দিন।
+14	instruction	Write a two-line poem about rain.	বৃষ্টি নিয়ে দুই লাইনের একটি কবিতা লিখুন।
+15	instruction	Suggest a name for a pet cat.	পোষা বিড়ালের জন্য একটি নাম প্রস্তাব করুন।
+16	instruction	Write a polite email subject line asking for a meeting.	সভার অনুরোধ জানিয়ে একটি ভদ্র ইমেইল বিষয়ের লাইন লিখুন।
+17	instruction	Name five fruits that are rich in vitamin C.	ভিটামিন সি সমৃদ্ধ পাঁচটি ফলের নাম বলুন।
+18	explanation	Explain what photosynthesis is.	সালোকসংশ্লেষণ কী তা ব্যাখ্যা করুন।
+19	explanation	Explain how a rainbow forms.	রামধনু কীভাবে তৈরি হয় তা ব্যাখ্যা করুন।
+20	explanation	What is inflation and why does it matter?	মুদ্রাস্ফীতি কী এবং এটি কেন গুরুত্বপূর্ণ?
+21	explanation	Explain what the internet is to a child.	একটি শিশুকে ইন্টারনেট কী তা বুঝিয়ে বলুন।
+22	explanation	How do vaccines work?	টিকা কীভাবে কাজ করে?
+23	explanation	Explain the difference between weather and climate.	আবহাওয়া ও জলবায়ুর পার্থক্য ব্যাখ্যা করুন।
+24	explanation	What causes the seasons on Earth?	পৃথিবীতে ঋতু পরিবর্তনের কারণ কী?
+25	explanation	Explain what a database is.	ডেটাবেস কী তা ব্যাখ্যা করুন।
+26	arithmetic	What is 17 plus 25?	১৭ এর সাথে ২৫ যোগ করলে কত হয়?
+27	arithmetic	What is 144 divided by 12?	১৪৪ কে ১২ দিয়ে ভাগ করলে কত হয়?
+28	arithmetic	What is 9 multiplied by 8?	৯ কে ৮ দিয়ে গুণ করলে কত হয়?
+29	arithmetic	What is 15 percent of 200?	২০০ এর ১৫ শতাংশ কত?
+30	arithmetic	Subtract 48 from 100.	১০০ থেকে ৪৮ বিয়োগ করুন।
+31	arithmetic	What is the square root of 81?	৮১ এর বর্গমূল কত?
+32	arithmetic	A shirt costs 500 taka and has a 20 percent discount. What is the final price?	একটি শার্টের দাম ৫০০ টাকা এবং এতে ২০ শতাংশ ছাড় আছে। চূড়ান্ত দাম কত?
+33	arithmetic	If a train travels 60 km in one hour, how far will it go in 3 hours?	একটি ট্রেন এক ঘণ্টায় ৬০ কিলোমিটার গেলে ৩ ঘণ্টায় কত দূর যাবে?
+34	summary	Summarise in one sentence: The Sundarbans is the largest mangrove forest in the world. It is home to the Royal Bengal Tiger and many other species. The forest protects the coast from storms.	এক বাক্যে সারসংক্ষেপ করুন: সুন্দরবন বিশ্বের বৃহত্তম ম্যানগ্রোভ বন। এটি রয়েল বেঙ্গল টাইগারসহ আরও অনেক প্রজাতির আবাসস্থল। বনটি উপকূলকে ঝড় থেকে রক্ষা করে।
+35	summary	Summarise in one sentence: Coffee is one of the most popular drinks in the world. It is made from roasted beans and contains caffeine. Many people drink it in the morning to feel awake.	এক বাক্যে সারসংক্ষেপ করুন: কফি বিশ্বের সবচেয়ে জনপ্রিয় পানীয়গুলোর একটি। এটি ভাজা বীজ থেকে তৈরি হয় এবং এতে ক্যাফেইন থাকে। অনেকে সকালে সজাগ থাকতে এটি পান করেন।
+36	summary	Summarise in one sentence: Bicycles are a cheap and clean way to travel. They need no fuel and keep the rider fit. Many cities are building special lanes for them.	এক বাক্যে সারসংক্ষেপ করুন: বাইসাইকেল ভ্রমণের একটি সস্তা ও পরিচ্ছন্ন উপায়। এতে জ্বালানি লাগে না এবং আরোহী সুস্থ থাকেন। অনেক শহর এর জন্য আলাদা লেন তৈরি করছে।
+37	summary	Summarise in one sentence: Libraries lend books for free. They also offer quiet places to study and computers to use. Many hold events for children.	এক বাক্যে সারসংক্ষেপ করুন: লাইব্রেরি বিনামূল্যে বই ধার দেয়। সেখানে পড়াশোনার জন্য শান্ত জায়গা এবং ব্যবহারের জন্য কম্পিউটারও থাকে। অনেক লাইব্রেরি শিশুদের জন্য অনুষ্ঠান আয়োজন করে।
+38	summary	Summarise in one sentence: Honeybees live in large groups called colonies. They collect nectar from flowers to make honey. In doing so they also help plants grow by spreading pollen.	এক বাক্যে সারসংক্ষেপ করুন: মৌমাছি কলোনি নামে বড় দলে বাস করে। তারা ফুল থেকে মধু সংগ্রহ করে মধু তৈরি করে। এতে তারা পরাগ ছড়িয়ে গাছ বাড়তেও সাহায্য করে।
+39	summary	Summarise in one sentence: The Moon orbits the Earth about once every 27 days. It has no air or water on its surface. Its gravity causes the tides in our oceans.	এক বাক্যে সারসংক্ষেপ করুন: চাঁদ প্রায় ২৭ দিনে একবার পৃথিবীকে প্রদক্ষিণ করে। এর পৃষ্ঠে বাতাস বা পানি নেই। এর মাধ্যাকর্ষণের কারণে আমাদের সাগরে জোয়ার-ভাটা হয়।
+40	summary	Summarise in one sentence: Recycling turns used materials such as paper, glass and plastic into new products. It reduces waste and saves energy. It also helps protect natural resources.	এক বাক্যে সারসংক্ষেপ করুন: পুনর্ব্যবহার কাগজ, কাচ ও প্লাস্টিকের মতো ব্যবহৃত জিনিসকে নতুন পণ্যে পরিণত করে। এতে বর্জ্য কমে ও শক্তি সাশ্রয় হয়। এটি প্রাকৃতিক সম্পদ রক্ষায়ও সাহায্য করে।
+41	long_prompt	I am planning a three-day trip to Cox's Bazar with my family. Please suggest a simple plan for each day, including what to eat and which places to visit, and keep the budget low.	আমি পরিবারের সাথে কক্সবাজারে তিন দিনের ভ্রমণের পরিকল্পনা করছি। অনুগ্রহ করে প্রতিদিনের জন্য একটি সহজ পরিকল্পনা দিন, কী খাব এবং কোন কোন জায়গায় যাব তা সহ, এবং বাজেট কম রাখুন।
+42	long_prompt	I want to start learning programming but I do not know where to begin. Explain what a beginner should learn first, which language is a good choice, and how many hours to practise every day.	আমি প্রোগ্রামিং শেখা শুরু করতে চাই কিন্তু কোথা থেকে শুরু করব জানি না। একজন নতুনের প্রথমে কী শেখা উচিত, কোন ভাষা ভালো পছন্দ এবং প্রতিদিন কত ঘণ্টা অনুশীলন করা উচিত তা ব্যাখ্যা করুন।
+43	long_prompt	My friend is feeling stressed because of exams. Write a kind and encouraging message that gives practical advice about studying, resting and staying calm.	আমার বন্ধু পরীক্ষার কারণে মানসিক চাপে আছে। পড়াশোনা, বিশ্রাম এবং শান্ত থাকার বিষয়ে বাস্তব পরামর্শ দিয়ে একটি সদয় ও উৎসাহমূলক বার্তা লিখুন।
+44	long_prompt	Describe the main differences between a village and a city. Talk about housing, transport, jobs and the environment, and give one advantage of each.	গ্রাম ও শহরের প্রধান পার্থক্যগুলো বর্ণনা করুন। বাসস্থান, যাতায়াত, চাকরি ও পরিবেশ নিয়ে বলুন এবং প্রত্যেকটির একটি করে সুবিধা দিন।
+45	long_prompt	Write a short story for children about a small boat that is afraid of the sea. The story should have a clear beginning, middle and end, and teach a lesson about courage.	সমুদ্রকে ভয় পায় এমন একটি ছোট নৌকা নিয়ে শিশুদের জন্য একটি ছোট গল্প লিখুন। গল্পের একটি স্পষ্ট শুরু, মধ্য ও শেষ থাকবে এবং তা সাহসের শিক্ষা দেবে।
+46	long_prompt	I run a small shop and want to attract more customers. Give me five practical ideas, such as using social media, offering discounts or improving the display, and explain each idea briefly.	আমি একটি ছোট দোকান চালাই এবং আরও গ্রাহক আকর্ষণ করতে চাই। সামাজিক যোগাযোগমাধ্যম ব্যবহার, ছাড় দেওয়া বা সাজসজ্জা উন্নত করার মতো পাঁচটি বাস্তব ধারণা দিন এবং প্রতিটি সংক্ষেপে ব্যাখ্যা করুন।
+47	long_prompt	Explain how to prepare a simple vegetable curry at home. Include the ingredients, the cooking steps in order, and how long it takes to cook.	বাড়িতে সহজ সবজির তরকারি কীভাবে রান্না করতে হয় তা ব্যাখ্যা করুন। উপকরণ, ধাপে ধাপে রান্নার নিয়ম এবং রান্না করতে কত সময় লাগে তা উল্লেখ করুন।
+48	long_prompt	Compare reading a printed book with reading on a phone. Discuss comfort, cost, eye health and convenience, and tell me which one you would recommend for students.	ছাপা বই পড়া এবং ফোনে পড়ার মধ্যে তুলনা করুন। আরাম, খরচ, চোখের স্বাস্থ্য ও সুবিধা নিয়ে আলোচনা করুন এবং শিক্ষার্থীদের জন্য কোনটি সুপারিশ করবেন তা বলুন।
+49	long_prompt	Our village has a problem with plastic waste in the river. Suggest a simple community plan to clean it and to stop people from throwing more waste in the future.	আমাদের গ্রামে নদীতে প্লাস্টিক বর্জ্যের সমস্যা আছে। নদী পরিষ্কার করতে এবং ভবিষ্যতে মানুষকে আরও বর্জ্য ফেলা থেকে বিরত রাখতে একটি সহজ সম্প্রদায়ভিত্তিক পরিকল্পনা প্রস্তাব করুন।
+50	long_prompt	Explain why saving money is important for young people. Describe how to start with a small amount each month and what goals they could save for.	তরুণদের জন্য সঞ্চয় কেন গুরুত্বপূর্ণ তা ব্যাখ্যা করুন। প্রতি মাসে অল্প অল্প করে কীভাবে শুরু করা যায় এবং কোন লক্ষ্যের জন্য তারা সঞ্চয় করতে পারে তা বর্ণনা করুন।

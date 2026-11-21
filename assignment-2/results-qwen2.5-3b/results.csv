@@ -1,0 +1,158 @@
+﻿id,language,category,prompt,output,input_tokens,output_tokens,total_tokens,cost_usd,latency_s,load_s,done_reason
+1,english,question,What is the capital of Japan?,The capital of Japan is Tokyo.,35,8,43,1.005e-05,2.878,0.071,stop
+1,bangla,question,জাপানের রাজধানী কী?,জাপানের রাজধানী হল সেন্ট হানারা.,49,34,83,2.775e-05,5.7,0.425,stop
+2,bangla,question,বাংলাদেশের জাতীয় সংগীত কে লিখেছেন?,বাংলাদেশের জাতীয় সংগীত লিখেছেন নিউজিল্যান্ডের জন্মে বাংলা ভাষার ব্যাক্তি প্রচারক জয়ন্তী মোহন।,67,103,170,7.185e-05,9.353,0.044,stop
+2,english,question,Who wrote the national anthem of Bangladesh?,"The national anthem of Bangladesh, ""Amar Shonar Bangla,"" was written by Rabindranath Tagore.",36,26,62,2.1e-05,2.12,0.107,stop
+3,english,question,How many days are there in a leap year?,A leap year has 366 days.,38,11,49,1.23e-05,0.895,0.015,stop
+3,bangla,question,একটি অধিবর্ষে কত দিন থাকে?,একটি অধিবর্ষে কাটা হয় 150 থেকে 166 দিন। এটি বিভিন্ন শিক্ষা প্রতিষ্ঠানগুলিতে অনেক ভিন্ন হয়।,54,96,150,6.569999999999998e-05,7.325,0.009,stop
+4,bangla,question,কোন গ্রহকে লাল গ্রহ বলা হয়?,লাল গ্রহ হল ভুবনেশ্বর (Venus)।,58,28,86,2.55e-05,2.727,0.008,stop
+4,english,question,Which planet is known as the Red Planet?,Mars,37,3,40,7.35e-06,0.48,0.008,stop
+5,english,question,What is the longest river in the world?,The longest river in the world is the Nile River.,37,12,49,1.275e-05,1.101,0.01,stop
+5,bangla,question,বিশ্বের দীর্ঘতম নদী কোনটি?,"নদীর দীর্ঘতম বিশ্বের কোনটি নয়, কিন্তু বিশ্বের দীর্ঘতম নদী হল গাজিসো।",57,78,135,5.535e-05,6.257,0.007,stop
+6,bangla,question,আকাশ নীল কেন?,আকাশ নীল হল সাবস্ক্যান্ডার অথবা পূর্ব সায়েন্টিফিক প্রোবেলেমের একটি সমাধান। বিভিন্ন প্রকারের সৃষ্টি করা পদার্থ এবং আকাশের,42,128,170,8.31e-05,8.699,0.01,length
+6,english,question,Why is the sky blue?,"The sky appears blue because of the way Earth's atmosphere scatters sunlight. Blue light is scattered more than other colors because it travels as shorter, smaller waves.",34,33,67,2.49e-05,2.393,0.008,stop
+7,english,question,What is the boiling point of water in Celsius?,The boiling point of water in Celsius is 100 degrees.,38,15,53,1.47e-05,1.146,0.007,stop
+7,bangla,question,পানির স্ফুটনাঙ্ক সেলসিয়াসে কত?,পানির স্ফুটনাঙ্ক (boiling point) সেলসিয়াসে 100°C হয়।,61,46,107,3.675e-05,3.484,0.011,stop
+8,bangla,question,মাধ্যাকর্ষণ কে আবিষ্কার করেছিলেন?,মাধ্যাকর্ষণ নাইম্যান আবিষ্কার করেছিলেন।,61,40,101,3.315e-05,2.947,0.006,stop
+8,english,question,Who discovered gravity?,"Gravity was not discovered by a single person, but rather it is a fundamental force of nature described by the law of universal gravitation formulated by Sir Isaac Newton.",32,33,65,2.46e-05,2.263,0.007,stop
+9,english,question,What is the largest mammal on Earth?,The largest mammal on Earth is the Blue Whale.,37,12,49,1.275e-05,1.029,0.008,stop
+9,bangla,question,পৃথিবীর বৃহত্তম স্তন্যপায়ী প্রাণী কোনটি?,পৃথিবীর বৃহত্তম স্তন্যপায়ী প্রাণী হল মাছ। মাছগুলো বিশাল সংখ্যকীয় প্রজন্মের জন্য পরিবেশ ও পরিবেশ প্রশস্ত হয়ে থাকে।,76,128,204,8.82e-05,8.813,0.008,length
+10,bangla,instruction,নতুন প্রতিবেশীর জন্য একটি ছোট শুভেচ্ছাবার্তা লিখুন।,"ভালো করে থাকুন এবং আমাদের সাথে থাকুন, নতুন প্রতিবেশী। আমরা আপনার সাথে যৌথ হবো যাতে আপনি আমাদের বাসে আসা যায়না কিছু খ",84,128,212,8.939999999999999e-05,10.971,0.007,length
+10,english,instruction,Write a short greeting for a new neighbour.,Hello there! Welcome to your new neighborhood! Hope you enjoy your stay.,37,16,53,1.5149999999999999e-05,1.974,0.023,stop
+11,english,instruction,List three healthy breakfast ideas.,"1. Oatmeal with fruits and nuts.
+2. Greek yogurt with honey and fresh berries.
+3. Smoothie bowl with spinach, banana, and almond milk.",34,35,69,2.61e-05,2.9,0.018,stop
+11,bangla,instruction,স্বাস্থ্যকর সকালের নাস্তার তিনটি ধারণা লিখুন।,1. নাস্তার প্রাথমিক ধারণা: নাস্তার প্রাথমিক ধারণা হল নাস্তার প্রকৃত প্রক্রিয়া এবং স্বাস্থ্য কর্মীদের সাথে যৌথ করা প্রক্রিয,74,128,202,8.79e-05,9.502,0.007,length
+12,bangla,instruction,"""শুভ সকাল"" কথাটি ফরাসি ভাষায় অনুবাদ করুন।","""শুভ সকাল"" ফরাসি ভাষায় "" excellente matinée "" অনুবাদ করা যায়।",74,52,126,4.23e-05,4.23,0.013,stop
+12,english,instruction,"Translate ""good morning"" into French.","good morning in French is ""bonne matinée""",36,13,49,1.3199999999999999e-05,1.069,0.008,stop
+13,english,instruction,Give me three tips to sleep better.,"1. Establish a regular sleep schedule by going to bed and waking up at the same time every day.
+2. Create a relaxing bedtime routine to signal your body that it's time to sleep.
+3. Make sure your sleeping environment is comfortable, quiet, and dark.",36,55,91,3.84e-05,3.918,0.011,stop
+13,bangla,instruction,ভালো ঘুমের জন্য আমাকে তিনটি পরামর্শ দিন।,"1. ঘুমের জন্য আমাকে শীতল জল খাওয়া যায়।
+2. আমাকে আরও কম চামচ খেতে হলে ঘুম পাওয়া সহজ হয়।
+3. আমাকে আরও কম কাজ করার জন্য",70,128,198,8.73e-05,9.746,0.008,length
+14,bangla,instruction,বৃষ্টি নিয়ে দুই লাইনের একটি কবিতা লিখুন।,"বৃষ্টির পানে পড়ে,
+লাল কালো পাতা জুড়ে.",73,44,117,3.734999999999999e-05,4.121,0.006,stop
+14,english,instruction,Write a two-line poem about rain.,"Raindrops kiss the earth,
+A melody of soft beat.",36,13,49,1.3199999999999999e-05,1.307,0.009,stop
+15,english,instruction,Suggest a name for a pet cat.,Whiskers,37,4,41,7.95e-06,0.705,0.009,stop
+15,bangla,instruction,পোষা বিড়ালের জন্য একটি নাম প্রস্তাব করুন।,বিলাজী বিড়ালো,73,18,91,2.175e-05,2.355,0.009,stop
+16,bangla,instruction,সভার অনুরোধ জানিয়ে একটি ভদ্র ইমেইল বিষয়ের লাইন লিখুন।,Subject: Notification for the Upcoming Seminar - Email Regarding the Topic,88,14,102,2.16e-05,1.854,0.01,stop
+16,english,instruction,Write a polite email subject line asking for a meeting.,Request Meeting - [Project Name],39,8,47,1.0649999999999998e-05,0.891,0.009,stop
+17,english,instruction,Name five fruits that are rich in vitamin C.,"Five fruits rich in vitamin C are oranges, strawberries, kiwi, grapefruit, and kale (though it's a vegetable, it's often mistaken for a fruit).",38,35,73,2.67e-05,3.974,0.008,stop
+17,bangla,instruction,ভিটামিন সি সমৃদ্ধ পাঁচটি ফলের নাম বলুন।,"ভিটামিন সি সমৃদ্ধ ফলগুলো: কুকুরি, কুচুকি, কুচুকি দুটি, কুচুকি একটি, কুচুকি দুটি।",69,96,165,6.794999999999998e-05,8.975,0.021,stop
+18,bangla,explanation,সালোকসংশ্লেষণ কী তা ব্যাখ্যা করুন।,সালোকসংশ্লেষণ হলো একটি পদার্থের বিভিন্ন সালোক এবং সালোকের অনুপাত বা সালোক বিন্যাস ব্যাখ্যা করা একটি পদক্ষেপ। এটি পদার্থে,66,128,194,8.67e-05,9.578,0.01,length
+18,english,explanation,Explain what photosynthesis is.,"Photosynthesis is the process by which plants, algae, and some bacteria use sunlight, water, and carbon dioxide to create oxygen and energy in the form of sugar. This process occurs in the chloroplasts of plant cells, where chlorophyll captures sunlight. The energy from sunlight is used to convert carbon dioxide and water into glucose (a type of sugar) and oxygen.",35,76,111,5.085e-05,5.271,0.007,stop
+19,english,explanation,Explain how a rainbow forms.,"A rainbow forms when sunlight passes through water droplets in the air, causing the light to separate into different colors due to a phenomenon called dispersion. This dispersion occurs because each color of light travels at a slightly different speed through water. When sunlight enters a water droplet, it slows down and bends. As the light exits the droplet, it bends again. This causes the light to spread out into its component colors, creating a rainbow.",35,89,124,5.8649999999999996e-05,6.506,0.006,stop
+19,bangla,explanation,রামধনু কীভাবে তৈরি হয় তা ব্যাখ্যা করুন।,রামধনু তৈরি হয় একটি প্রাচীন বাঙালি পাহাড় যা রামধনু নামক একটি বাঙালি ব্যক্তির নামের উপর ভিত্তি করে। এটি বাংলাদেশের উত্তর,73,128,201,8.775e-05,11.381,0.015,length
+20,bangla,explanation,মুদ্রাস্ফীতি কী এবং এটি কেন গুরুত্বপূর্ণ?,মুদ্রাস্ফীতি হল ব্যবহারকারীদের মুদ্রা ব্যবহারের পরিবর্তে ব্যবহারকারীদের মুদ্রা প্রদানের পরিবর্তে ব্যবহারকারীদের মুদ্রা প,76,128,204,8.82e-05,12.6,0.012,length
+20,english,explanation,What is inflation and why does it matter?,"Inflation is the rate at which the general level of prices for goods and services is rising, and, subsequently, the purchasing power of currency is falling. It matters because it affects the value of money, the cost of borrowing, and can influence consumer and business decisions. When inflation is high, the purchasing power of money decreases, and debts that are fixed in value can become more burdensome.",37,80,117,5.3549999999999994e-05,6.751,0.011,stop
+21,english,explanation,Explain what the internet is to a child.,The internet is like a big library where you can find lots of information and stories. It's a place where people from all over the world can talk to each other and share pictures and videos. You can also play games and learn new things on the internet.,38,53,91,3.75e-05,4.366,0.013,stop
+21,bangla,explanation,একটি শিশুকে ইন্টারনেট কী তা বুঝিয়ে বলুন।,শিশু ইন্টারনেট হল একটি বিষয় বা প্রোগ্রাম যা তোমার বুকে পুরানো নয়। এটি একটি কম্পিউটার বা ব্যান্ড থেকে প্রেরণ করা হয় এ,75,128,203,8.805e-05,11.31,0.01,length
+22,bangla,explanation,টিকা কীভাবে কাজ করে?,টিকা (TikTok) একটি মোবাইল ফ্যাশন এবং কোমল গান সাইন সাইট হিসেবে পরিচিত। এটি বিডিয়া প্রদান এবং প্রদর্শন করা এবং সাইন সাইন করার,49,128,177,8.414999999999999e-05,10.615,0.008,length
+22,english,explanation,How do vaccines work?,Vaccines work by introducing a small part of a disease-causing agent (like a virus or bacteria) into the body so the immune system can learn how to recognize and fight it. This helps the body build immunity to the disease without actually getting the disease.,33,54,87,3.735e-05,4.282,0.009,stop
+23,english,explanation,Explain the difference between weather and climate.,"Weather refers to the short-term state of the atmosphere at a particular place, including temperature, humidity, wind, and precipitation. Climate, on the other hand, is the long-term average of weather conditions in a particular area, typically spanning over decades or longer.",37,53,90,3.734999999999999e-05,5.302,0.018,stop
+23,bangla,explanation,আবহাওয়া ও জলবায়ুর পার্থক্য ব্যাখ্যা করুন।,"আবহাওয়া ও জলবায়ুর পার্থক্য ব্যাখ্যা করতে যে কিছু বলতে পারি: 
+
+1. আবহাওয়া একটি সমস্ত জলবায়ু প্রক্রিয়ার একটি প্রতিবিধি।",75,128,203,8.805e-05,14.241,0.009,length
+24,bangla,explanation,পৃথিবীতে ঋতু পরিবর্তনের কারণ কী?,পৃথিবীতে ঋতু পরিবর্তনের কারণ হল পৃথিবীর ক্ষেত্রের পরিবর্তনশীল প্রকৃতি এবং পৃথিবীর কেন্দ্রিত পরিবর্তনশীল প্রকৃতি। এটি,64,128,192,8.639999999999999e-05,43.673,0.027,length
+24,english,explanation,What causes the seasons on Earth?,"The seasons on Earth are caused by the tilt of the Earth's rotational axis and its revolution around the Sun. As the Earth orbits the Sun, different parts of the planet receive varying amounts of sunlight, leading to seasonal changes.",35,46,81,3.284999999999999e-05,33.195,1.668,stop
+25,english,explanation,Explain what a database is.,"A database is an organized collection of data that is stored in a computer so that it can be easily accessed, managed, updated, and retrieved. It allows for efficient storage and retrieval of information, often using specific software applications.",35,46,81,3.284999999999999e-05,32.21,0.178,stop
+25,bangla,explanation,ডেটাবেস কী তা ব্যাখ্যা করুন।,ডেটা বোকার (ডেটা বেস) হল একটি সফটওয়েব সাবস্ক্রিপশন যা ডেটা প্রদানকৃত এবং ডেটা প্রযোজনীয় করার জন্য একটি স্ট্যান্ডার্ড হিস,58,128,186,8.55e-05,38.799,0.163,length
+26,bangla,arithmetic,১৭ এর সাথে ২৫ যোগ করলে কত হয়?,"32
+
+To arrive at this, you simply add 17 and 25 together: 17 + 25 = 32.",64,33,97,2.94e-05,4.427,0.025,stop
+26,english,arithmetic,What is 17 plus 25?,32,38,3,41,7.5e-06,0.693,0.013,stop
+27,english,arithmetic,What is 144 divided by 12?,12,40,3,43,7.8e-06,0.784,0.037,stop
+27,bangla,arithmetic,১৪৪ কে ১২ দিয়ে ভাগ করলে কত হয়?,১২ দিয়ে ১৪৪ ভাগ হয় ১২০।,67,36,103,3.165e-05,5.007,0.015,stop
+28,bangla,arithmetic,৯ কে ৮ দিয়ে গুণ করলে কত হয়?,"৯ কে ৮ দিয়ে গুণ করলে কোন সংখ্যা হবে না, কারণ 9 এবং 8 মধ্যে কোন সংখ্যা বিভাজ্য নয়।",62,94,156,6.57e-05,10.965,0.023,stop
+28,english,arithmetic,What is 9 multiplied by 8?,72,37,3,40,7.35e-06,0.67,0.021,stop
+29,english,arithmetic,What is 15 percent of 200?,30,40,3,43,7.8e-06,0.617,0.023,stop
+29,bangla,arithmetic,২০০ এর ১৫ শতাংশ কত?,15% of 200 is 30.,52,14,66,1.62e-05,2.307,0.011,stop
+30,bangla,arithmetic,১০০ থেকে ৪৮ বিয়োগ করুন।,৬২,60,5,65,1.2e-05,1.366,0.03,stop
+30,english,arithmetic,Subtract 48 from 100.,52,39,3,42,7.65e-06,0.634,0.012,stop
+31,english,arithmetic,What is the square root of 81?,The square root of 81 is 9.,38,12,50,1.2899999999999998e-05,1.788,0.044,stop
+31,bangla,arithmetic,৮১ এর বর্গমূল কত?,৮১ এর বর্গমূল ৮.৪৮৬৬... (অনু士িষ্টভাবে ৮.৪৮৭) হবে।,48,60,108,4.32e-05,7.269,0.014,stop
+32,bangla,arithmetic,একটি শার্টের দাম ৫০০ টাকা এবং এতে ২০ শতাংশ ছাড় আছে। চূড়ান্ত দাম কত?,"শার্টের দাম ও 20% ছাড় হতে গিয়ে, চূড়ান্ত দাম হবে 600 টাকা।",106,65,171,5.49e-05,9.312,0.015,stop
+32,english,arithmetic,A shirt costs 500 taka and has a 20 percent discount. What is the final price?,The final price after a 20% discount on a shirt that costs 500 taka is 400 taka.,52,30,82,2.58e-05,4.253,0.024,stop
+33,english,arithmetic,"If a train travels 60 km in one hour, how far will it go in 3 hours?",The train will travel 180 km in 3 hours.,50,15,65,1.65e-05,2.527,0.053,stop
+33,bangla,arithmetic,একটি ট্রেন এক ঘণ্টায় ৬০ কিলোমিটার গেলে ৩ ঘণ্টায় কত দূর যাবে?,"একটি ট্রেন এক ঘণ্টায় 60 কিলোমিটার যায়, তাই 3 ঘণ্টায় যাবে 3 x 60 = 180 কিলোমিটার. 
+
+অন্যভাবে: ট্রেনটি এক ঘণ্টায় 60 কিলোমিট",97,128,225,9.135e-05,26.79,0.03,length
+34,bangla,summary,এক বাক্যে সারসংক্ষেপ করুন: সুন্দরবন বিশ্বের বৃহত্তম ম্যানগ্রোভ বন। এটি রয়েল বেঙ্গল টাইগারসহ আরও অনেক প্রজাতির আবাসস্থল। বনটি উপকূলকে ঝড় থেকে রক্ষা করে।,সুন্দরবন বিশ্বের বৃহত্তম ম্যানগ্রোভ বন এবং রয়েল বেঙ্গল টাইগারসহ অনেক প্রজাতির আবাসস্থল। এটি উপকূলকে ঝড় থেকে রক্ষা করে।,189,128,317,0.00010515,91.858,1.591,stop
+34,english,summary,Summarise in one sentence: The Sundarbans is the largest mangrove forest in the world. It is home to the Royal Bengal Tiger and many other species. The forest protects the coast from storms.,"The Sundarbans, home to Royal Bengal Tigers and various species, protects coastal areas from storms while serving as the world's largest mangrove forest.",70,31,101,2.91e-05,4.372,0.013,stop
+35,english,summary,Summarise in one sentence: Coffee is one of the most popular drinks in the world. It is made from roasted beans and contains caffeine. Many people drink it in the morning to feel awake.,"Coffee, made from roasted beans and containing caffeine, is a popular morning drink that helps people feel awake.",68,22,90,2.34e-05,3.517,0.016,stop
+35,bangla,summary,এক বাক্যে সারসংক্ষেপ করুন: কফি বিশ্বের সবচেয়ে জনপ্রিয় পানীয়গুলোর একটি। এটি ভাজা বীজ থেকে তৈরি হয় এবং এতে ক্যাফেইন থাকে। অনেকে সকালে সজাগ থাকতে এটি পান করেন।,কফি বিশ্বের সবচেয়ে জনপ্রিয় পানীয়গুলোর মধ্যে একটি হয় এবং এটি ভাজা বীজ থেকে তৈরি হয় যার মধ্যে ক্যাফেইন রয়েছে। এট,200,128,328,0.0001068,18.114,0.02,length
+36,bangla,summary,এক বাক্যে সারসংক্ষেপ করুন: বাইসাইকেল ভ্রমণের একটি সস্তা ও পরিচ্ছন্ন উপায়। এতে জ্বালানি লাগে না এবং আরোহী সুস্থ থাকেন। অনেক শহর এর জন্য আলাদা লেন তৈরি করছে।,বাইসাইকেল ভ্রমণ একটি সস্তা এবং পরিচ্ছন্ন উপায় যা জ্বালানি থামিয়ে আনে এবং আরোহীরা সুস্থ রাখে। অনেক শহর এটি জন্য লেন-দোক,192,128,320,0.00010559999999999999,13.614,0.028,length
+36,english,summary,Summarise in one sentence: Bicycles are a cheap and clean way to travel. They need no fuel and keep the rider fit. Many cities are building special lanes for them.,"Bicycles are affordable, eco-friendly transportation that cities are increasingly promoting with dedicated lanes.",66,19,85,2.13e-05,1.755,0.008,stop
+37,english,summary,Summarise in one sentence: Libraries lend books for free. They also offer quiet places to study and computers to use. Many hold events for children.,"Libraries provide free book lending along with study spaces, computers, and events for children.",59,19,78,2.025e-05,1.741,0.005,stop
+37,bangla,summary,এক বাক্যে সারসংক্ষেপ করুন: লাইব্রেরি বিনামূল্যে বই ধার দেয়। সেখানে পড়াশোনার জন্য শান্ত জায়গা এবং ব্যবহারের জন্য কম্পিউটারও থাকে। অনেক লাইব্রেরি শিশুদের জন্য অনুষ্ঠান আয়োজন করে।,লাইব্রেরি বই ধার দেয় এবং শিশুদের জন্য অনুষ্ঠান আয়োজন করে। এছাড়াও সেখানে শান্ত জায়গা এবং কম্পিউটার থাকে।,220,117,337,0.0001032,10.563,0.007,stop
+38,bangla,summary,এক বাক্যে সারসংক্ষেপ করুন: মৌমাছি কলোনি নামে বড় দলে বাস করে। তারা ফুল থেকে মধু সংগ্রহ করে মধু তৈরি করে। এতে তারা পরাগ ছড়িয়ে গাছ বাড়তেও সাহায্য করে।,মৌমাছি কলোনি মধু তৈরি করে এবং গাছ বাড়ানোর জন্য পরাগ ছড়ায়।,192,70,262,7.08e-05,6.316,0.009,stop
+38,english,summary,Summarise in one sentence: Honeybees live in large groups called colonies. They collect nectar from flowers to make honey. In doing so they also help plants grow by spreading pollen.,"Honeybees live in colonies, collect nectar to make honey, and help plants grow by pollination.",67,24,91,2.4449999999999995e-05,2.422,0.008,stop
+39,english,summary,Summarise in one sentence: The Moon orbits the Earth about once every 27 days. It has no air or water on its surface. Its gravity causes the tides in our oceans.,"The Moon orbits Earth approximately every 27 days, lacks air and water on its surface, and influences ocean tides.",68,26,94,2.5799999999999997e-05,2.336,0.008,stop
+39,bangla,summary,এক বাক্যে সারসংক্ষেপ করুন: চাঁদ প্রায় ২৭ দিনে একবার পৃথিবীকে প্রদক্ষিণ করে। এর পৃষ্ঠে বাতাস বা পানি নেই। এর মাধ্যাকর্ষণের কারণে আমাদের সাগরে জোয়ার-ভাটা হয়।,চাঁদ প্রায় 27 দিনে পৃথিবীকে প্রদক্ষিণ করে এবং বাতাস বা পানি নেই তার পৃষ্ঠে। এর মাধ্যাকর্ষণ আমাদের সাগরে জোয়ার-ভাটা করে।,197,128,325,0.00010635,58.68,0.046,length
+40,bangla,summary,"এক বাক্যে সারসংক্ষেপ করুন: পুনর্ব্যবহার কাগজ, কাচ ও প্লাস্টিকের মতো ব্যবহৃত জিনিসকে নতুন পণ্যে পরিণত করে। এতে বর্জ্য কমে ও শক্তি সাশ্রয় হয়। এটি প্রাকৃতিক সম্পদ রক্ষায়ও সাহায্য করে।","নতুন পণ্য তৈ পুনর্ব্যবহার করা কাগজ, কাচ ও প্লাস্টিকের মতো ব্যবহৃত জিনিসগুলির মধ্যে বর্জ্য কমে ও শক্তি বৃদ্ধি হয়। এটি প",221,128,349,0.00010994999999999999,49.698,0.082,length
+40,english,summary,"Summarise in one sentence: Recycling turns used materials such as paper, glass and plastic into new products. It reduces waste and saves energy. It also helps protect natural resources.","Recycling converts used materials into new products, reducing waste and conserving energy while protecting natural resources.",64,21,85,2.22e-05,1.785,0.005,stop
+41,english,long_prompt,"I am planning a three-day trip to Cox's Bazar with my family. Please suggest a simple plan for each day, including what to eat and which places to visit, and keep the budget low.","Day 1:
+- Morning: Visit Cox's Bazar Beach Park for a leisurely walk and some swimming. It's free and has a nice view of the sea.
+- Lunch: Try the local seafood at the beach, like fish curry or prawn curry, which is affordable.
+- Evening: Explore the local market for souvenirs and snacks. There are many street food stalls that offer affordable snacks like samosas and roti.
+
+Day 2:
+- Morning: Visit the Cox's Bazar Zoo, which is free. It's a great place to see different animals.
+- Lunch: Have lunch at the local restaurant,",69,128,197,8.714999999999999e-05,9.008,0.008,length
+41,bangla,long_prompt,"আমি পরিবারের সাথে কক্সবাজারে তিন দিনের ভ্রমণের পরিকল্পনা করছি। অনুগ্রহ করে প্রতিদিনের জন্য একটি সহজ পরিকল্পনা দিন, কী খাব এবং কোন কোন জায়গায় যাব তা সহ, এবং বাজেট কম রাখুন।","প্রথম দিন: সিটি ট্রাফিক কম করে যান, এবং স্কোর্ট করে খাবেন।
+
+দ্বিতীয় দিন: পরিবারের সাথে যাবেন কোন কোন জায়গায় (উদাহরণস্বর",210,128,338,0.0001083,11.266,0.008,length
+42,bangla,long_prompt,"আমি প্রোগ্রামিং শেখা শুরু করতে চাই কিন্তু কোথা থেকে শুরু করব জানি না। একজন নতুনের প্রথমে কী শেখা উচিত, কোন ভাষা ভালো পছন্দ এবং প্রতিদিন কত ঘণ্টা অনুশীলন করা উচিত তা ব্যাখ্যা করুন।",প্রথমে একটি প্রোগ্রামিং ভাষা শিখতে যাওয়া সহজ হয় না। একজন নতুনের জন্য প্রথমে একটি সহজ ভাষা শিখতে যাওয়া উচিত। আমি সিস্টেম,222,128,350,0.00011009999999999999,11.521,0.007,length
+42,english,long_prompt,"I want to start learning programming but I do not know where to begin. Explain what a beginner should learn first, which language is a good choice, and how many hours to practise every day.","For beginners, it's best to start with a language that is easy to learn and has a large community for support, such as Python. Python is beginner-friendly and can be used for a variety of applications, including web development, data analysis, and artificial intelligence.
+
+As for how many hours to practice daily, it's more important to have a consistent schedule than to practice for a long time. Aim for at least 1-2 hours of focused practice per day. Consistency is key in learning programming.",67,103,170,7.185e-05,7.221,0.009,stop
+43,english,long_prompt,"My friend is feeling stressed because of exams. Write a kind and encouraging message that gives practical advice about studying, resting and staying calm.","Hey friend, I know exams can be stressful. Here are some tips to help you manage stress and stay calm: try to get enough sleep, take short breaks during study sessions, and don't forget to eat well and stay hydrated. Remember, it's okay to ask for help and take things one step at a time. You've got this!",55,71,126,5.085e-05,17.137,0.005,stop
+43,bangla,long_prompt,"আমার বন্ধু পরীক্ষার কারণে মানসিক চাপে আছে। পড়াশোনা, বিশ্রাম এবং শান্ত থাকার বিষয়ে বাস্তব পরামর্শ দিয়ে একটি সদয় ও উৎসাহমূলক বার্তা লিখুন।","সদয় ও উৎসাহমূলক বার্তা লিখার জন্য এখানে একটি উদাহরণ:
+
+""আমি তোমাকে বিশ্রাম নিতে বলছি, পড়াশোনা করতে বলছি এবং শান্ত থাকতে বলছ",178,128,306,0.0001035,64.24,0.072,length
+44,bangla,long_prompt,"গ্রাম ও শহরের প্রধান পার্থক্যগুলো বর্ণনা করুন। বাসস্থান, যাতায়াত, চাকরি ও পরিবেশ নিয়ে বলুন এবং প্রত্যেকটির একটি করে সুবিধা দিন।","গ্রামের প্রধান পার্থক্য:
+- বাসস্থান: গ্রামের বাসস্থান সাধারণত কম বিন্যাসে স্থাপিত হয়েছে, যেমন বাড়ি বা বাড়িয়ার। শহরের বাসস",165,128,293,0.00010155,40.043,0.142,length
+44,english,long_prompt,"Describe the main differences between a village and a city. Talk about housing, transport, jobs and the environment, and give one advantage of each.","Sure, here's a brief overview:
+
+**Housing:**
+- **Village:** Housing tends to be more traditional and often more affordable. It might include small houses, cottages, or even communal living spaces.
+- **City:** Housing is more diverse and expensive. It includes apartments, high-rise buildings, and luxury homes. 
+
+**Transport:**
+- **Village:** Public transport might be less frequent and less reliable. People often rely on bicycles, walking, or private cars.
+- **City:** Public transport is more frequent and extensive, including buses, trains, and subways. 
+
+**Jobs:**
+- **V",57,128,185,8.535e-05,15.117,0.008,length
+45,english,long_prompt,"Write a short story for children about a small boat that is afraid of the sea. The story should have a clear beginning, middle and end, and teach a lesson about courage.","Once upon a time, in a small village by the sea, there lived a little boat named Bubbles. Bubbles was very small and delicate, and she was afraid of the sea. She would often hide under the dock, away from the waves and the salty spray.
+
+One day, a storm came and the sea was wild and fierce. The villagers were worried and called for Bubbles to help them sail to safety. Bubbles was scared but also knew she had to help. She bravely climbed out of her hiding place and set off into the storm.
+
+At first, Bubbles was terrified. The waves were huge and the wind",64,128,192,8.639999999999999e-05,9.067,0.006,length
+45,bangla,long_prompt,"সমুদ্রকে ভয় পায় এমন একটি ছোট নৌকা নিয়ে শিশুদের জন্য একটি ছোট গল্প লিখুন। গল্পের একটি স্পষ্ট শুরু, মধ্য ও শেষ থাকবে এবং তা সাহসের শিক্ষা দেবে।",এক শিশু ছোট নৌকায় প্রবেশ করেছিল। নৌকাটি সমুদ্রের ভয়ানক শব্দ ও বিক্ষিবস সৃষ্টির মধ্যে ছিল। শিশু ভয়ে ভয়ে নৌকায় ব,184,128,312,0.00010439999999999999,19.591,0.011,length
+46,bangla,long_prompt,"আমি একটি ছোট দোকান চালাই এবং আরও গ্রাহক আকর্ষণ করতে চাই। সামাজিক যোগাযোগমাধ্যম ব্যবহার, ছাড় দেওয়া বা সাজসজ্জা উন্নত করার মতো পাঁচটি বাস্তব ধারণা দিন এবং প্রতিটি সংক্ষেপে ব্যাখ্যা করুন।",1. সামাজিক যোগাযোগ মাধ্যম: আপনি স্ক্রিটিউন সার্ভিস বা ব্লগ প্রোগ্রাম চালানো যেতে পারেন। এটি গ্রাহকদের আকর্ষণ করার জন্য একটি,225,128,353,0.00011055,61.327,0.075,length
+46,english,long_prompt,"I run a small shop and want to attract more customers. Give me five practical ideas, such as using social media, offering discounts or improving the display, and explain each idea briefly.","1. Using Social Media: Engage with your customers by regularly posting updates, sharing customer stories, and running promotions. This helps build a community around your brand and keeps your business top-of-mind.
+
+2. Offering Discounts: Run occasional sales or discounts to attract new customers and encourage repeat visits. This can be done through email, social media, or in-store announcements.
+
+3. Improving Display: Ensure your products are well-organized and displayed attractively. This can make your shop more appealing and help customers find what they're looking for more easily.
+
+4. Personalized Customer Service: Offer personalized service to make customers feel valued and",65,128,193,8.655e-05,27.043,0.063,length
+47,english,long_prompt,"Explain how to prepare a simple vegetable curry at home. Include the ingredients, the cooking steps in order, and how long it takes to cook.","To prepare a simple vegetable curry at home, you will need the following ingredients: onions, tomatoes, garlic, ginger, curry leaves, coconut milk, and your choice of vegetables (like bell peppers, carrots, and potatoes). 
+
+First, finely chop the onions, tomatoes, garlic, and ginger. Heat some oil in a pan and sauté the onions until they turn translucent. Add the garlic and ginger, and cook for a minute. 
+
+Next, add the chopped tomatoes and cook until they break down. Then, add the curry leaves, and cook for a minute. 
+
+Add your choice of vegetables and continue to cook until they",58,128,186,8.55e-05,16.128,0.02,length
+47,bangla,long_prompt,"বাড়িতে সহজ সবজির তরকারি কীভাবে রান্না করতে হয় তা ব্যাখ্যা করুন। উপকরণ, ধাপে ধাপে রান্নার নিয়ম এবং রান্না করতে কত সময় লাগে তা উল্লেখ করুন।",তরকারি তৈরির প্রথম ধাপ হল সবজির প্যাটার্ন করে সাজানো। পরে সবজি এবং তরকারি পেয়ারে প্যাটার্ন করে দিয়ে রাখা হয়। পরবর্তীতে,177,128,305,0.00010334999999999999,24.04,0.011,length
+48,bangla,long_prompt,"ছাপা বই পড়া এবং ফোনে পড়ার মধ্যে তুলনা করুন। আরাম, খরচ, চোখের স্বাস্থ্য ও সুবিধা নিয়ে আলোচনা করুন এবং শিক্ষার্থীদের জন্য কোনটি সুপারিশ করবেন তা বলুন।","ছাপা বই পড়া এবং ফোনে পড়ার মধ্যে তুলনা করা যায় আরাম এবং সুবিধা দিয়েছে ছাপা বই। ফোনে পড়া খরচ কমে যায়, কিন্তু চ",195,128,323,0.00010605,53.281,0.747,length
+48,english,long_prompt,"Compare reading a printed book with reading on a phone. Discuss comfort, cost, eye health and convenience, and tell me which one you would recommend for students.","Reading a printed book is generally more comfortable for the eyes and can be more convenient for note-taking. Printed books are also more cost-effective in the long run. However, reading on a phone is more convenient for students as they can access their books anytime and anywhere. In terms of eye health, prolonged screen time on a phone can lead to eye strain and headaches. Therefore, I would recommend printed books for students, but a phone can be a good supplement.",60,93,153,6.48e-05,15.967,0.009,stop
+49,english,long_prompt,Our village has a problem with plastic waste in the river. Suggest a simple community plan to clean it and to stop people from throwing more waste in the future.,"A simple community plan could involve organizing regular clean-up events, educating the community about the impact of plastic waste, and implementing a recycling program. Additionally, installing trash bins and increasing awareness through local media can help reduce littering.",61,46,107,3.675e-05,8.78,0.079,stop
+49,bangla,long_prompt,আমাদের গ্রামে নদীতে প্লাস্টিক বর্জ্যের সমস্যা আছে। নদী পরিষ্কার করতে এবং ভবিষ্যতে মানুষকে আরও বর্জ্য ফেলা থেকে বিরত রাখতে একটি সহজ সম্প্রদায়ভিত্তিক পরিকল্পনা প্রস্তাব করুন।,আমাদের গ্রামে নদীতে প্লাস্টিক বর্জ্যের সমস্যার জন্য একটি সহজ সম্প্রদায়ভিত্তিক পরিকল্পনা প্রস্তাবনা করা যায়। সেটি হল গ্রামের,207,128,335,0.00010784999999999999,22.165,0.005,length
+50,bangla,long_prompt,তরুণদের জন্য সঞ্চয় কেন গুরুত্বপূর্ণ তা ব্যাখ্যা করুন। প্রতি মাসে অল্প অল্প করে কীভাবে শুরু করা যায় এবং কোন লক্ষ্যের জন্য তারা সঞ্চয় করতে পারে তা বর্ণনা করুন।,তরুণদের জন্য সঞ্চয় গুরুত্বপূর্ণ কারণ এটা তাদের শিক্ষার পরিকল্পনা এবং পরিবেশের সাহায্যে প্রতিষ্ঠিত হওয়ার জন্য প্রয়োজ,204,128,332,0.0001074,46.071,0.008,length
+50,english,long_prompt,Explain why saving money is important for young people. Describe how to start with a small amount each month and what goals they could save for.,"Saving money is crucial for young people because it helps build financial security, reduces stress, and allows for future investments or emergencies. Starting with a small amount each month is a practical way to begin. For instance, you could save $5 or $10 per week, which adds up to $260 or $520 annually. 
+
+You could save for short-term goals like buying a new gadget, a concert ticket, or a small vacation. For longer-term goals, you might save for a car, a down payment on a house, or retirement. The key is to set clear, achievable goals and to stick to your",57,128,185,8.535e-05,15.15,0.008,length

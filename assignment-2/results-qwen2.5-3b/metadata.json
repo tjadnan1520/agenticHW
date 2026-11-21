@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:3b",
+  "ollama_version": "0.40.16",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 128,
+    "num_ctx": 4096
+  },
+  "system_prompt": "Answer correctly and briefly, in the same language as the user's message.",
+  "template_overhead_tokens": 28,
+  "dataset_sha256": "86013bbe368ef5519f89ee053c7eba7a8411ca125d8e77f21aa214af23a74954",
+  "pairs": 50,
+  "status": "complete",
+  "started_utc": "2026-11-21T04:20:31+00:00",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "price_usd_per_million": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "calls_completed": 100,
+  "elapsed_s": 1241.4,
+  "finished_utc": "2026-11-21T04:41:12+00:00"
+}
