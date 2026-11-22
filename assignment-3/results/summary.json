@@ -1,0 +1,194 @@
+{
+  "prompt": {
+    "runs": [
+      {
+        "file": "prompt_run1.jsonl",
+        "calls": 50,
+        "json_valid_rate": 1.0,
+        "schema_valid_rate": 0.54,
+        "invalid_rate": 0.45999999999999996,
+        "field_accuracy": 0.44285714285714284,
+        "per_field": {
+          "domain": 0.5,
+          "notice_type": 0.4,
+          "expires_on": 0.46,
+          "registrar": 0.32,
+          "amount_due": 0.5,
+          "currency": 0.48,
+          "action_required": 0.44
+        },
+        "per_type": {
+          "expiry": 0.20408163265306123,
+          "other": 0.5873015873015873,
+          "payment": 0.24489795918367346,
+          "renewal": 0.40816326530612246,
+          "suspension": 0.6666666666666666,
+          "transfer": 0.7755102040816326
+        },
+        "truncated": 0,
+        "extra_keys": 0,
+        "cost_usd": 0.080498,
+        "cost_with_cache_usd": 0.080498,
+        "cached_tokens": 0,
+        "prompt_tokens": 25141,
+        "seconds": 457.08299999999997,
+        "invalid_ids": [
+          "n01",
+          "n02",
+          "n03",
+          "n04",
+          "n06",
+          "n07",
+          "n08",
+          "n09",
+          "n10",
+          "n14",
+          "n15",
+          "n16",
+          "n20",
+          "n21",
+          "n22",
+          "n26",
+          "n33",
+          "n36",
+          "n37",
+          "n40",
+          "n41",
+          "n42",
+          "n49"
+        ]
+      }
+    ],
+    "json_valid_rate": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "schema_valid_rate": {
+      "mean": 0.54,
+      "min": 0.54,
+      "max": 0.54
+    },
+    "invalid_rate": {
+      "mean": 0.45999999999999996,
+      "min": 0.45999999999999996,
+      "max": 0.45999999999999996
+    },
+    "field_accuracy": {
+      "mean": 0.44285714285714284,
+      "min": 0.44285714285714284,
+      "max": 0.44285714285714284
+    },
+    "cost_usd": {
+      "mean": 0.080498,
+      "min": 0.080498,
+      "max": 0.080498
+    },
+    "cost_with_cache_usd": {
+      "mean": 0.080498,
+      "min": 0.080498,
+      "max": 0.080498
+    },
+    "seconds": {
+      "mean": 457.08299999999997,
+      "min": 457.08299999999997,
+      "max": 457.08299999999997
+    },
+    "per_field_mean": {
+      "domain": 0.5,
+      "notice_type": 0.4,
+      "expires_on": 0.46,
+      "registrar": 0.32,
+      "amount_due": 0.5,
+      "currency": 0.48,
+      "action_required": 0.44
+    },
+    "per_type_mean": {
+      "expiry": 0.20408163265306123,
+      "other": 0.5873015873015873,
+      "payment": 0.24489795918367346,
+      "renewal": 0.40816326530612246,
+      "suspension": 0.6666666666666666,
+      "transfer": 0.7755102040816326
+    }
+  },
+  "grammar": {
+    "runs": [
+      {
+        "file": "grammar_run1.jsonl",
+        "calls": 14,
+        "json_valid_rate": 1.0,
+        "schema_valid_rate": 1.0,
+        "invalid_rate": 0.0,
+        "field_accuracy": 0.6632653061224489,
+        "per_field": {
+          "domain": 0.7857142857142857,
+          "notice_type": 0.14285714285714285,
+          "expires_on": 0.5714285714285714,
+          "registrar": 0.42857142857142855,
+          "amount_due": 0.9285714285714286,
+          "currency": 0.7857142857142857,
+          "action_required": 1.0
+        },
+        "per_type": {
+          "expiry": 0.6632653061224489
+        },
+        "truncated": 0,
+        "extra_keys": 0,
+        "cost_usd": 0.023506,
+        "cost_with_cache_usd": 0.023506,
+        "cached_tokens": 0,
+        "prompt_tokens": 7193,
+        "seconds": 144.416,
+        "invalid_ids": []
+      }
+    ],
+    "json_valid_rate": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "schema_valid_rate": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "invalid_rate": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "field_accuracy": {
+      "mean": 0.6632653061224489,
+      "min": 0.6632653061224489,
+      "max": 0.6632653061224489
+    },
+    "cost_usd": {
+      "mean": 0.023506,
+      "min": 0.023506,
+      "max": 0.023506
+    },
+    "cost_with_cache_usd": {
+      "mean": 0.023506,
+      "min": 0.023506,
+      "max": 0.023506
+    },
+    "seconds": {
+      "mean": 144.416,
+      "min": 144.416,
+      "max": 144.416
+    },
+    "per_field_mean": {
+      "domain": 0.7857142857142857,
+      "notice_type": 0.14285714285714285,
+      "expires_on": 0.5714285714285714,
+      "registrar": 0.42857142857142855,
+      "amount_due": 0.9285714285714286,
+      "currency": 0.7857142857142857,
+      "action_required": 1.0
+    },
+    "per_type_mean": {
+      "expiry": 0.6632653061224489
+    }
+  }
+}

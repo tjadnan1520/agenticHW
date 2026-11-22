@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "domain-notice/v1",
+  "title": "Domain notice extraction, schema version 1.0",
+  "description": "One domain per notice. Consumers ignore unknown fields, so adding an optional field is a compatible change.",
+  "type": "object",
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "domain": {
+      "type": "string",
+      "description": "Registered domain name in lowercase, without www., subdomains, scheme or path."
+    },
+    "notice_type": {
+      "type": "string",
+      "enum": ["expiry", "renewal", "transfer", "suspension", "payment", "other"]
+    },
+    "expires_on": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "The domain's registration expiry date as YYYY-MM-DD; null if the notice does not state it. Never invented."
+    },
+    "registrar": {
+      "type": ["string", "null"],
+      "description": "Registrar that sent the notice; if the sender is not a registrar, the registrar named in it; else null."
+    },
+    "amount_due": {
+      "type": ["number", "null"],
+      "description": "Money the recipient must pay or will be charged; null if nothing is due or payment is already complete."
+    },
+    "currency": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z]{3}$",
+      "description": "ISO 4217 code of amount_due; null when amount_due is null."
+    },
+    "action_required": {
+      "type": "boolean",
+      "description": "True if the recipient is asked to do something; false if informational or only conditional."
+    }
+  },
+  "required": ["schema_version", "domain", "notice_type", "expires_on", "registrar",
+               "amount_due", "currency", "action_required"]
+}
